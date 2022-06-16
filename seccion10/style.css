@@ -1,0 +1,25 @@
+.main {
+    display: flex;
+    height: 600px;
+}
+
+.barra-izquierda {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion-principal {
+    flex-grow: 3;
+    background-color: darkgreen;
+}
+
+@media (max-width: 640px) {
+    .barra-izquierda {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 3rem;
+        flex-direction: row;
+    }
+}
