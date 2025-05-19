@@ -78,12 +78,12 @@ Este proyecto requiere Node.js (v18 o superior recomendado) y npm.
 
 Puedes verificar si los tienes instalados ejecutando en la terminal:
 
-bash
+```bash
 
 node -v
 
 npm -v
-
+```
 
 Si no los tienes instalados, descárgalos desde:
 
@@ -98,29 +98,29 @@ Este proyecto fue creado con Angular CLI versión 19.2.0.
 
 Para instalarlo globalmente:
 
-bash
+```bash
 
 npm install -g @angular/cli@19.2.0
-
+```
 
 Verifica que esté instalado correctamente:
 
-bash
+```bash
 
 ng version
-
+```
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 Una vez tengas todo listo, continúa con los pasos de instalación:
 
-bash
+```bash
 
 npm install
 
 ng serve
-
+```
 
 
 
@@ -131,36 +131,32 @@ ng serve
 
 1. Clona este repositorio:
 
-bash
-
-CopiarEditar
+```bash
 
 git clone https://github.com/usuario/nombre-proyecto.git
 
 cd nombre-proyecto
+```
 
+2. Instala las dependencias:
 
-1. Instala las dependencias:
-
-nginx
-
-CopiarEditar
+```bash
 
 npm install
+```
 
+3. Ejecuta el servidor de desarrollo:
 
-1. Ejecuta el servidor de desarrollo:
-
-nginx
-
-CopiarEditar
+```bash
 
 ng serve
+```
 
+4. Abre el navegador en:
 
-1. Abre el navegador en:
-
+```bash
 http://localhost:4200/
+```
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -190,7 +186,7 @@ http://localhost:4200/
 
 Se siguió al 100% el diseño entregado en Figma.
 
-🔗 Figma - Diseño Prueba Desarrollador F.E Junior
+🔗 [Figma - Diseño Prueba Desarrollador F.E Junior](https://www.figma.com/design/KhiZKnlVxkmtCsAkMjpz6d/Dise%C3%B1o-prueba-desarrollador-F.E-Junior?node-id=2-977&t=0cqxSRxEqN0EIbxX-0)
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
