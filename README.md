@@ -68,30 +68,97 @@ src/
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
+✅ Requisitos del sistema
+
+Antes de instalar y ejecutar este proyecto, asegúrate de tener instaladas las siguientes herramientas en tu sistema:
+
+🧱 Node.js y npm
+
+Este proyecto requiere Node.js (v18 o superior recomendado) y npm.
+
+Puedes verificar si los tienes instalados ejecutando en la terminal:
+
+bash
+
+node -v
+
+npm -v
+
+
+Si no los tienes instalados, descárgalos desde:
+
+🔗 https://nodejs.org/
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
+🧰 Angular CLI
+
+Este proyecto fue creado con Angular CLI versión 19.2.0.
+
+Para instalarlo globalmente:
+
+bash
+
+npm install -g @angular/cli@19.2.0
+
+
+Verifica que esté instalado correctamente:
+
+bash
+
+ng version
+
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
+Una vez tengas todo listo, continúa con los pasos de instalación:
+
+bash
+
+npm install
+
+ng serve
+
+
+
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
 🧰 Instalación y ejecución
 
 1. Clona este repositorio:
 
-```bash
+bash
+
+CopiarEditar
 
 git clone https://github.com/usuario/nombre-proyecto.git
 
 cd nombre-proyecto
-```
 
-2. Instala las dependencias:
 
-```bash
+1. Instala las dependencias:
+
+nginx
+
+CopiarEditar
+
 npm install
-```
 
-3. Ejecuta el servidor de desarrollo:
 
-```bash
+1. Ejecuta el servidor de desarrollo:
+
+nginx
+
+CopiarEditar
+
 ng serve
-```
 
-4. Abre el navegador en:
+
+1. Abre el navegador en:
 
 http://localhost:4200/
 
@@ -123,7 +190,7 @@ http://localhost:4200/
 
 Se siguió al 100% el diseño entregado en Figma.
 
-🔗 [Figma - Diseño Prueba Desarrollador F.E Junior](https://www.figma.com/design/KhiZKnlVxkmtCsAkMjpz6d/Dise%C3%B1o-prueba-desarrollador-F.E-Junior?node-id=2-977&t=0cqxSRxEqN0EIbxX-0)
+🔗 Figma - Diseño Prueba Desarrollador F.E Junior
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
